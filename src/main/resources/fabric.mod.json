@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "sranosro",
+    "version": "1.0.0",
+    "name": "Sranosro",
+    "description": "Automatic accurate block placement mod (client-side only).",
+    "authors": ["Rooqata"],
+    "environment": "*",
+  
+    "entrypoints": {
+      "client": [
+        "nc.rooqata.sranosro.SranosroMod"
+      ]
+    },
+  
+    "depends": {
+      "fabricloader": ">=0.15.0",
+      "minecraft": "1.20.4",
+      "java": ">=17",
+      "fabric-api": "*"
+    }
+  }
+  
